@@ -9,8 +9,8 @@ spring:
       
 eureka: 
   client: 
-	servie-url: 
-	  defaultZone: http://eureka-dev.com:7001/eureka
+    servie-url: 
+      defaultZone: http://eureka-dev.com:7001/eureka
       
 ---
 server: 
@@ -23,5 +23,5 @@ spring:
       
 eureka: 
   client: 
-	servie-url: 
-	  defaultZone: http://eureka-test.com:7001/eureka
+    servie-url: 
+      defaultZone: http://eureka-test.com:7001/eureka
